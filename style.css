@@ -1,0 +1,69 @@
+
+
+body{
+    background-color: #F7F7FF;
+    font-family: "Indie Flower";
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: #2A1F2D;
+}
+
+.Words{
+    background-color: #3B2C35;
+    padding: 5em;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    box-shadow: 0 5px 5px #2A1F2D;
+    text-align: center;
+    color: white;
+}
+
+Button{
+    border: none;
+    padding: 1em;
+    background-color: transparent;
+    margin: 2em;
+    color: #889e8a;
+    font-weight: bold;
+    outline: 5px solid;
+    cursor: pointer;
+}
+
+Button:hover {
+    background-color: #3B2C35;
+    opacity: 50%;
+    outline: none;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 1em;
+}
+
+#definition{
+    color: rgb(90, 181, 204);
+}
+
+#example{
+    display: inline;
+}
+
+#word{
+    font-size: 2.5em;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.showbtn {
+    color: greenyellow;
+}
+
+
